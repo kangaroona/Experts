@@ -29,7 +29,6 @@ void OnTick(void)
 // TrailingStop) in our case, we check TakeProfit
 // on a chart of less than 100 bars
 //---
-   Print(Bars);
    if(Bars<100)
      {
       Print("bars less than 100");
